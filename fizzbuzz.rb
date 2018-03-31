@@ -1,7 +1,7 @@
-require 'pry'
+#require 'pry'
 
 def fizzbuzz(num)
-  binding.pry
+#  binding.pry
   
   if num % 3 == 0 && num % 5 != 0
     return 'Fizz'
